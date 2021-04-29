@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import {AppContainer, AppHeader, AppLink} from './App.styled';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <AppContainer>
+      <AppHeader>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <AppLink href="https://reactjs.org" target="_blank">
           Learn React
-        </a>
-      </header>
-    </div>
+        </AppLink>
+      </AppHeader>
+    </AppContainer>
   );
 }
 
