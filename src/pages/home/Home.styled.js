@@ -1,12 +1,11 @@
 import styled from 'styled-components';
-import {gray0, bluelight, black} from '../styles/palette'
+import {bluelight, black} from '../../styles/palette';
 
-export const AppContainer = styled.div`
+export const HomeContainer = styled.div`
   text-align: center;
 `;
 
-export const AppHeader = styled.header`
-  background-color: ${gray0};
+export const HomeHeader = styled.header`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,6 +15,6 @@ export const AppHeader = styled.header`
   color: ${black};
 `;
 
-export const AppLink = styled.a`
+export const HomeLink = styled.a`
   color: ${bluelight};
 `;
